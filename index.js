@@ -190,19 +190,9 @@ class Calculator extends React.Component {
 }
 
 ReactDOM.render(
-  <Calculator />
-) 
-
-
-
-
-
-
-
-
-
-
-
+  <Calculator />, 
+  document.getElementById("root")  
+);
 
 
 
